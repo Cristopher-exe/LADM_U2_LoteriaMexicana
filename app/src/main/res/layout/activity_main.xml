@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/fondo"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/cartas"
+        android:layout_width="352dp"
+        android:layout_height="469dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/Play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="603dp" />
+
+    <Button
+        android:id="@+id/Stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="603dp" />
+
+    <Button
+        android:id="@+id/Rest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restantes"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="655dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/barajear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barajear"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="655dp" />
+
+
+</LinearLayout>
